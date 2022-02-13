@@ -8,6 +8,6 @@ pip3 install -r requirements.txt
 
 # 设置定时任务
 crontab -e
-# 添加下面这行
-# * 12,19 * * * scrapy runspider zju_cst.py &>>zju.log
+# 添加下面这行，表示每天12:00 19:00各执行一次
+# 0 12,19 * * * scrapy runspider zju_cst.py &>>zju.log
 ```
