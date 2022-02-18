@@ -2,7 +2,7 @@
 使用python3 + scrapy爬取软院官网教务信息，使用cron添加定时任务，软院官网服务器承压能力较差，每天爬两次就够了，如果有信息能推送到钉钉机器人
 
 ## 使用方法
-添加钉钉机器人的推送URL到脚本的url变量中
+**首先，需要添加钉钉机器人的推送URL到脚本的url变量中**
 ```shell
 pip3 install -r requirements.txt
 
